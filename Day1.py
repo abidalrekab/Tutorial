@@ -7,7 +7,7 @@ class empolee:
         self.last = last
         self.email = name + '.' + last + '@gmail.com'
         self.pay = pay
-        
+        '''  note '''
     def print_inf(self):
         return 'The first name:  {} \nThe last name: {} \nThe pay: {} $ \nEmail: {}'.format(self.name, self.last, self.pay, self.email)
 
